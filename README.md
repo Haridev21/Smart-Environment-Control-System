@@ -39,6 +39,30 @@ This project is a **Smart College Environment Control System** that integrates *
 
 ---
 
+## Credits  
+This project utilizes the **OpenWeather API** to fetch real-time weather data.  
+We acknowledge and give full credit to **OpenWeather** for providing free access to weather information.  
+
+- **Website**: [OpenWeather](https://openweathermap.org/)  
+- **API Documentation**: [OpenWeather API Docs](https://openweathermap.org/api)  
+
+---
+
+## Future Enhancements  
+- Add fan/light control based on sensor data.  
+- Implement historical data tracking.  
+- Deploy on cloud services.  
+
+---
+
+## Contributors  
+- Haridev M  
+- Sanjay Nair  
+- Jilsiya Ali C  
+
+
+---
+
 ## Installation & Setup  
 
 ### Prerequisites  
