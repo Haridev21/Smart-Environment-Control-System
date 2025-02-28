@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart College</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Smart Environment Control System</div>
+        <nav>
+            <ul>
+                <li><a href="#weather">Weather Info</a></li>
+                <li><a href="#cse">CSE Rooms</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Weather Section -->
+    <section id="weather" class="section">
+        <h2>Current Weather Info</h2>
+        <label for="city">Enter City:</label>
+        <input type="text" id="city" placeholder="Enter city name">
+        <button onclick="fetchWeather()">Get Weather</button>
+        <div id="weather-result"></div>
+    </section>
+
+<!-- CSE Department Section -->
+<section id="cse" class="section">
+    <h2>CSE Department Rooms</h2>
+    <button id="cse-btn">
+        <img src="{{ url_for('static', filename='Room.jpeg') }}" alt="Get Sensor Data">
+    </button>
+    <p><strong>Room:</strong> Btech S3</p> 
+    <p id="cse-data">Click the button to see sensor data.</p>
+</section>
+
+
+    <footer>
+        <p>© 2025 Smart College. All rights reserved.</p>
+    </footer>
+    
+   
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</body>
+</html>
