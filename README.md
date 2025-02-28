@@ -2,6 +2,9 @@
 
 This project is a **Smart College Environment Control System** that integrates **weather information** and **sensor-based room monitoring** to enhance classroom conditions. It fetches real-time **weather data** using OpenWeather API and **Arduino-based sensor data** to suggest environmental adjustments.
 
+## 🎥 [Click here for demo video](https://drive.google.com/file/d/1mPACdPoQM_j5O7EEkUxKD_dSgjBehOQw/view?usp=drive_link "🔼 Google Drive ") 🎥
+
+
 ---
 
 ## Features  
