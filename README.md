@@ -51,12 +51,7 @@ We acknowledge and give full credit to **OpenWeather** for providing free access
 
 ---
 
-## Future Enhancements  
-- Add fan/light control based on sensor data.  
-- Implement historical data tracking.  
-- Deploy on cloud services.  
 
----
 
 ## Contributors  
 - Haridev M  
